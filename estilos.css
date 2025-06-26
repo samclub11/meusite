@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Gothic+Expanded+One&display=swap');
+
+/* Estilos tela Home e serviços */
+
+
+nav{
+    background-color: #574bd7;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 48px 100px 0px;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    backdrop-filter: blur(120px);
+
+}
+
+nav .logo{
+    float: left;
+    display: block;
+    padding: 14px 16px;
+    
+}
+
+
+nav a{
+    color: white;
+    float: right;
+    text-decoration: none;
+    display: block;
+    padding: 14px 16px;
+}
+
+nav a:hover {
+    color: gray;
+    transition: 1s;
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Special Gothic Expanded One", sans-serif;
+}
+
+body {
+    display: flex;
+    
+    background: linear-gradient(90deg,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    background-size: cover;
+    background-position: center;
+    
+
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+    width: 10px;
+    background-color: purple;
+
+}
+
+
+
+.container2 {
+width: 100%;
+background-color: transparent;
+border: 2px solid rgba(255, 255, 255, .2);
+border-radius: 10px;
+color: white;
+padding: 30px 40px;
+box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+backdrop-filter: blur(120px);
+margin-left: 50px;
+margin-right: 50px;
+height: 1000vh;
+margin-top: 65px;
+margin-bottom: 20px;
+justify-items: center;
+
+}
+
+.titulo-inicial{
+    justify-content: center;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+
+.texto-site{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.copy{
+    justify-items: center;
+    text-align:center;
+    background-color: transparent;
+    position: absolute;
+    position: relative;
+    bottom:0%;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+
+
+}
+
+.video{
+    justify-items: center;
+    margin: 30px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+
+
+.script{
+    color: black;
+    
+    
+}
+
+ .btn1{
+    margin: 30px;
+    padding: 15px;
+    background-color: rgb(172, 21, 126);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    border: none;
+    
+} 
+
+.btn1:hover{
+    background-color: rgb(253, 16, 194);
+    
+    transition: 0,4s;
+}
+
+select {
+  width: 100%;
+  padding: 16px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+  outline: none;
+}
+
+
